@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Oct 14, 2016, 9:04:30 AM
-    Author     : XavierLi1248
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,6 +8,6 @@
     <body>
         <h1>Basketball Players Database</h1>
         
-        <a href="read">View All Players</a>
+        <a href="Read">View All Players</a>
     </body>
 </html>
