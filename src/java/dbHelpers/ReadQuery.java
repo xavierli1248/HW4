@@ -108,6 +108,5 @@ public class ReadQuery {
         table += "</table>";
                 
                 return table;
-           
     }
 }
