@@ -66,6 +66,8 @@ public class ReadQuery {
         
         String table = "";
         
+        table += "<table>";
+        
                 table += "<th>";
                 table += "PlayerID";
                 table += "</th>";
@@ -84,6 +86,10 @@ public class ReadQuery {
                 
                 table += "<th>";
                 table += "JerseyNumber";
+                table += "</th>";
+                
+                table += "<th>";
+                table += "";
                 table += "</th>";
         
         try {
