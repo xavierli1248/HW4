@@ -10,5 +10,7 @@
         <h1>Basketball Players Database</h1>
         
         <a href="Read">View All Players</a>
+        <br><br>
+        <a href="search.jsp">Search Players</a>
     </body>
 </html>
