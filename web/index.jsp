@@ -7,10 +7,19 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Basketball Players Database</h1>
+        <div class="wrap">
+            
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
         
-        <a href="Read">View All Players</a>
-        <br><br>
-        <a href="search.jsp">Search Players</a>
+            <div class="main">
+                <h1>NBA Players Database</h1>
+                
+            </div>
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>
     </body>
 </html>
