@@ -34,7 +34,7 @@ public class DeleteServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet DeleteServlet</title>");            
+            out.println("<title>Servlet DeleteServlet</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet DeleteServlet at " + request.getContextPath() + "</h1>");
@@ -55,8 +55,8 @@ public class DeleteServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            
-            doPost(request, response);
+
+        doPost(request, response);
     }
 
     /**
@@ -70,17 +70,17 @@ public class DeleteServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            
-            int playerID = Integer.parseInt(request.getParameter("playerID"));
-            
-            DeleteQuery dq = new DeleteQuery();
-            
-            dq.doDelete(playerID);
-            
-            String url = "/Read";
-            
-            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-            dispatcher.forward (request, response);
+
+        int playerID = Integer.parseInt(request.getParameter("playerID"));
+
+        DeleteQuery dq = new DeleteQuery();
+
+        dq.doDelete(playerID);
+
+        String url = "/Read";
+
+        RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+        dispatcher.forward(request, response);
     }
 
     /**
