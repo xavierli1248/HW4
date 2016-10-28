@@ -10,4 +10,7 @@ input[type=text] {height: 30px; pading: 20px 20px; margin: 8px 0; box-sizing: bo
 border: 3px solid black; border-radius: 4px;}
 input[type=submit] {background-color: blue; border: 5px solid black; color: white; padding: 16px 32px;
 font-size: 16pt; text-decoration: none; margin: 4px 2px; cursor: pointer;}
+input[type=reset] {background-color: blue; border: 5px solid black; color: white; padding: 16px 32px;
+font-size: 16pt; text-decoration: none; margin: 4px 2px; cursor: pointer;}
 label {display: inline-block; text-align: left; width: 60px;}
+input[readonly] {background-color: gray;}

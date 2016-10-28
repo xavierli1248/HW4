@@ -23,6 +23,7 @@
             <label>Jersey Number:</label>
             <input type="text" name="jnumber" value="" />
             <br>
+            <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Submit" />
         </form>
     </body>

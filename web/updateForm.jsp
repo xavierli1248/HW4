@@ -15,7 +15,7 @@
         <form name="updateForm" action="updatePlayer" method="get">
             
             <label>Player ID:</label>
-            <input type="text" name="name" value="<%= player.getPlayerID() %>" />
+            <input type="text" name="id" value="<%= player.getPlayerID() %>" readonly/>
             <br>
             <label>Player Name:</label>
             <input type="text" name="name" value="<%= player.getPlayerName() %>" />
@@ -29,7 +29,8 @@
             <label>Jersey Number:</label>
             <input type="text" name="jnumber" value="<%= player.getJerseyNumber() %>" />
             <br>
-            <input type="submit" name="submit" value="Update" />
+            <input type="reset" name="reset" value="Clear" />
+            <input type="submit" name="update" value="Update" />
         </form>
     </body>
 </html>
