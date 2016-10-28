@@ -13,15 +13,16 @@
                 <div class="wrap">
             
             <%@ include file="includes/header.jsp" %>
-            
+            <hr/>
             <%@ include file="includes/menu.jsp" %>
+            <hr/>
         
             <div class="main">
         <h1>NBA Basketball Players</h1>
         <%= table %>
         
         </div>
-        
+        <hr/>
         <%@ include file="includes/footer.jsp" %>
         
         </div>

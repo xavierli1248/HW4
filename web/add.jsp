@@ -8,7 +8,9 @@
     </head>
     <body>
         <h1>Add A New Player</h1>
-        
+        <hr/>
+        <a href="index.jsp" id="current">Home</a>
+        <br><br>
         <form name="addForm" action="addPlayer" method="get">
             
             <label>Player Name:</label>
@@ -26,5 +28,7 @@
             <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Submit" />
         </form>
+        <hr>
+        <%@ include file="includes/footer.jsp" %>
     </body>
 </html>

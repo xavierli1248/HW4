@@ -10,14 +10,15 @@
         <div class="wrap">
             
             <%@ include file="includes/header.jsp" %>
-            
+            <hr/>
             <%@ include file="includes/menu.jsp" %>
+            <hr/>
         
             <div class="main">
                 <h1>NBA Players Database</h1>
                 
             </div>
-        
+        <hr/>
         <%@ include file="includes/footer.jsp" %>
         
         </div>

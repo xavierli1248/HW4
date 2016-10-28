@@ -22,6 +22,7 @@ input[readonly] {background-color: gray;}
 
 .navcontainer {margin-left: 30px; text-align:left;}
 .navlist {list-style: none; padding: 0; margin: 0;}
+.navlist li {display: inline; padding: 0; margin: 0;}
 .navlist li:before {content: "| ";}
 .navlist li:first-child:before {content: "";}
 * html #navlist li {border-left: 1px solid black; padding: 0 0.4em 0 0.4em; margin: 0 0.4em 0 -0.4em;}
