@@ -11,7 +11,9 @@
     </head>
     <body>
         <h1>Update A New Player</h1>
-        
+        <hr>
+        <a href="index.jsp" id="current">Home</a>
+        <br><br>
         <form name="updateForm" action="updatePlayer" method="get">
             
             <label>Player ID:</label>
@@ -32,5 +34,7 @@
             <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="update" value="Update" />
         </form>
+            <hr>
+            <%@ include file="includes/footer.jsp" %>
     </body>
 </html>
